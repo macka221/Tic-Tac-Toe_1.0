@@ -21,4 +21,4 @@ class Game {
     bool promptForReplay();
     bool promptForMove(int position);
     void promptForPlayerInfo();
-}
+};

@@ -18,4 +18,4 @@ class Player {
     string firstName;
     string lastName;
     char piece;
-} 
+};

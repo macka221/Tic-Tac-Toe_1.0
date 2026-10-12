@@ -8,9 +8,9 @@ class Board {
     void getCurrentBoard();
     void resetBoard();
     void highlightWinningPositions(int position, char piece);
-    enum gameState { WIN, DRAW, CONTINUE } = CONTINUE;
+    enum gameState { CONTINUE, WIN, DRAW };
   private:
     bool checkWinningMove(int position, char piece);
     bool checkForADraw();
     char board[10];
-}
+};
