@@ -5,6 +5,8 @@ using namespace std;
 
 class Player {
   public:
+    Player();
+    ~Player();
     void setFirstName(string fName);
     void setLastName(string lName);
     void setPiece(char p);
