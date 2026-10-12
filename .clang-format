@@ -1,0 +1,16 @@
+---
+Language: Cpp
+Standard: c++20
+BasedOnStyle: Google
+IndentWidth: 2
+UseTab: Never
+ColumnLimit: 100
+BreakBeforeBraces: Attach
+PointerAlignment: Right
+AccessModifierOffset: 0
+SortIncludes:
+  Enabled: true
+  IgnoreCase: true
+IncludeBlocks: Merge
+NamespaceIndentation: None
+AllowShortFunctionsOnASingleLine: None
